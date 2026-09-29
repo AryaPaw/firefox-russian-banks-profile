@@ -19,7 +19,7 @@
 Нажмите **Win + R**, введите `cmd` и вставьте команду. Новый Windows Terminal не нужен.
 
 ```bat
-for %i in (%RANDOM%%RANDOM%) do @(md "%TEMP%\rb-%i" && curl.exe -fLo "%TEMP%\rb-%i\setup.bat" https://raw.githubusercontent.com/AryaPaw/firefox-russian-banks-profile/ae6a3500a95d7cd4522c7dbcc90dcc15d41c74b9/setup-russian-banks.bat && "%TEMP%\rb-%i\setup.bat")
+for %i in (%RANDOM%%RANDOM%) do @(md "%TEMP%\rb-%i" && curl.exe -fLo "%TEMP%\rb-%i\setup.bat" https://raw.githubusercontent.com/AryaPaw/firefox-russian-banks-profile/36d82a9e658f752545a8bdedf7b616bf04e4caa3/setup-russian-banks.bat && "%TEMP%\rb-%i\setup.bat")
 ```
 
 Файл загрузится во временную папку и удалится после закрытия мастера.
