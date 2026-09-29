@@ -1,4 +1,4 @@
 /.gitattributes text eol=lf
-*.bat text eol=crlf
+*.bat -text
 *.md text eol=lf
 *.png binary
